@@ -11,13 +11,15 @@ It's ready to run using `gradle` or from the main class.
 
 ## Exercise Definition
 
-The idea is to create a simple REST API that's going to combine data from different sources.
 The topic is characters from Rick and Morty.
+
+The idea is to create a simple REST API that's going to combine data from different sources and treat them as one. A 
+client should be able to consume this API without knowing the data is coming from more than one source.
 
 ### Sources
 - Local database. 
-    - It doesn't need to be a real database, just a list on memory would be enough.
-    - Model definition (TODO add link)
+    - It doesn't need to be a real database, just storing it on memory would be enough.
+    - Model definition defined on [characters-entity-definition.json](https://github.com/debutcareers/debut-be-exercise-api/blob/master/src/main/resources/characters-entity-definition.json)
 - First page of Characters endpoint from [Rick and Morty API](https://rickandmortyapi.com/documentation/#rest)
 
 ### Endpoints
@@ -29,11 +31,12 @@ The topic is characters from Rick and Morty.
 ## Notes
 - The idea of the exercise is to be done in around 3 hours depending on how familiar you are with Kotlin and Spring
 - What we are going to check from the project is:
-    - Project design, clean architecture
+    - Project design, clean and scalable architecture
     - Model design and model mapping
     - REST API working, ideally no bugs
     - Understanding of functional programming
     - Testing
+- Try to think a scenario where you could have more than two sources in the future  
 - You can use any external library that you see necessary 
 - Everything extra you add is going to be well appreciated, but it’s not going to be judge for not adding it
 - The result of this exercise is going to be used for your final tech interview
