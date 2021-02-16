@@ -44,7 +44,7 @@ client should be able to consume this API without knowing the data is coming fro
 ## Delivering
 We accept any of these ways for delivery
 - Zip project and send it by email
-- Create a Github repo and share access to @maxidelo and @valentinholgado
+- Create a Github repo and share access to @maxidelo, @valentinholgado and @niguibru
 
 
 
